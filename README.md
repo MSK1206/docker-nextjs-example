@@ -69,4 +69,4 @@ docker-compose run --rm app sh -c 'npx create-next-app@latest next-app --ts --ta
 docker-compose up
 ```
 
-これで localhost:3000 でアクセスできれば OK です。
+これで [`localhost:3000`](http://localhost:3000) でアクセスできれば OK です。
