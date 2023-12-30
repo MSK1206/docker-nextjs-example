@@ -1,9 +1,3 @@
-## Docker + Next.js 環境構築
-
-```bash
-mkdir <任意のフォルダ名>
-cd <任意のフォルダ名>
-```
 
 ## Dockerfile & docker-compose.yml を作成
 
