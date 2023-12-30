@@ -54,7 +54,7 @@ environment:
 ## image を構築
 
 ```bash
-$ docker-compose build
+docker-compose build
 ```
 
 ## Next.js のインストール
