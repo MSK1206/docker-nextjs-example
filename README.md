@@ -35,13 +35,13 @@ services:
     build:
       context: .
     tty: true
-    volumes:
-      - .:/app
-    ports:
-      - '3000:3000'
     environment:
       - WATCHPACK_POLLING=true
-    command: sh -c "cd next-app && npm run dev"
+    volumes:
+      - ./next-app:/app
+    ports:
+      - '3000:3000'
+    command: sh -c "npm run dev"
 ```
 
 - Tips: ホットリロードを有効にしておく記述
