@@ -58,7 +58,7 @@ docker-compose build
 対話形式に沿ってインストール
 
 ```bash
-docker-compose run --rm app sh -c 'npx create-next-app@latest next-app --ts --tailwind --eslint --app --src-dir --import-alias --use-npm'
+docker-compose run --rm app sh -c 'npx create-next-app@latest . --ts --tailwind --eslint --app --src-dir --import-alias --use-npm'
 ```
 
 ※options を指定してインストールする場合は公式の[`APIリファレンス`](https://nextjs.org/docs/pages/api-reference/create-next-app)を参照し適宜自分の合ったものに変更してください。
